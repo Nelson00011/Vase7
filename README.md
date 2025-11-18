@@ -1,4 +1,4 @@
-<h1 align="center">Notes</h1>
+<h1 align="center">Data Science Tool Kit</h1>
 
 <p align="center"><a href="https://blackbird.ai/"><img src="./image/python.png"></img></a></p>
 
@@ -7,8 +7,11 @@
 **Name of Event** with Description of the event and link. 
 
 ## Notes:
-#### Name | [Company](link)
-- Generation information from the speaker here
+#### ML in Python | [SciKit](https://scikit-learn.org/stable/)
+- Simple and efficient tools for predictive data analysis
+- Accessible to everybody, and reusable in various contexts
+- Built on NumPy, SciPy, and matplotlib
+- Open source, commercially usable - BSD license
 
 #### Name | [Company](link)
 - Generation information from the speaker here
