@@ -1,6 +1,7 @@
 <h1 align="center">Notes</h1>
 
-<p align="center"><a href="IMAGE"><img src="IMAGE"></img></a></p>
+<p align="center"><a href="https://blackbird.ai/"><img src="./image/python.png"></img></a></p>
+
 
 ## Description:
 **Name of Event** with Description of the event and link. 
