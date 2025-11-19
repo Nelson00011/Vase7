@@ -42,7 +42,7 @@
     reg = LinearRegression()
     reg.fit(x_matrix,y)
     ```
-    R-squared
+    [R-squared](https://en.wikipedia.org/wiki/Coefficient_of_determination) - Coefficient of Determination
     ```
     reg.score(x_matrix, y)
     ```
@@ -58,6 +58,29 @@
     ```
     reg.predict(<number>)
     ```
+    Regression Model Summary from [Scikit-Learn](https://www.geeksforgeeks.org/python/how-to-get-regression-model-summary-from-scikit-learn/) INPUT:
+    ```
+    # import packages
+    import numpy as np
+    import pandas as pd
+    import statsmodels.formula.api as smf
+
+    # loading the csv file
+    df = pd.read_csv('headbrain1.csv')
+    print(df.head())
+
+    # fitting the model
+    df.columns = ['Head_size', 'Brain_weight']
+    model = smf.ols(formula='Head_size ~ Brain_weight',
+                    data=df).fit()
+
+    # model summary
+    print(model.summary())
+    ```
+    Regression Model Summary from [Scikit-Learn](https://www.geeksforgeeks.org/python/how-to-get-regression-model-summary-from-scikit-learn/) INPUT:OUTPUT
+    <p align="center"><a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html"><img src="./image/StatsModel.png"></img></a></p>
+
+
 - [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling) is a method used to normalize the range of independent variables or features of data
 - Differences between the L1-norm and the L2-norm [Least Absolute Deviations and Least Squares](https://www.chioka.in/differences-between-the-l1-norm-and-the-l2-norm-least-absolute-deviations-and-least-squares/) 
 
