@@ -77,9 +77,28 @@
     # model summary
     print(model.summary())
     ```
-    Regression Model Summary from [Scikit-Learn](https://www.geeksforgeeks.org/python/how-to-get-regression-model-summary-from-scikit-learn/) INPUT:OUTPUT
+    Regression Model Summary from [Scikit-Learn](https://www.geeksforgeeks.org/python/how-to-get-regression-model-summary-from-scikit-learn/) OUTPUT:
     <p align="center"><a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html"><img src="./image/StatsModel.png"></img></a></p>
+    **P > |t|** if a variable as a p-value > 0.05, we can disregard it
 
+    Creating a Summary Table: Features, Coefficients, P-values
+    ```
+    reg_summary = pd.DataFrame(data = x.columns.values, columns=['Features'])
+    reg_summary
+    ```
+
+    Standardization
+    ```
+    from sklearn.preprocessing import StandardScaler
+    scaler = StandardScaler()
+    scaler.fix(x)
+    x_scaled = scaler.transform(x)
+    ```
+- [Seaborn](https://seaborn.pydata.org/generated/seaborn.displot.html) several approaches for visualizing the univariate or bivariate distribution of data, including subsets of data defined by semantic mapping and faceting across multiple subplots
+<p align="center"><a href="https://seaborn.pydata.org/generated/seaborn.displot.html"><img src="./image/Penguin.png"></img></a></p>
+
+- [Underfitting](https://www.ibm.com/think/topics/underfitting) the model has no captured the underlying logic of the data
+- [Overfitting](https://www.ibm.com/think/topics/overfitting) Our Training has focused on the particular training set so much, it has "missed the point" 
 
 - [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling) is a method used to normalize the range of independent variables or features of data
 - Differences between the L1-norm and the L2-norm [Least Absolute Deviations and Least Squares](https://www.chioka.in/differences-between-the-l1-norm-and-the-l2-norm-least-absolute-deviations-and-least-squares/) 
