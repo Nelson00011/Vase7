@@ -40,11 +40,30 @@
     Regression Itself
     ```
     reg = LinearRegression()
-    reg.fit(x,y)
+    reg.fit(x_matrix,y)
     ```
+    R-squared
+    ```
+    reg.score(x_matrix, y)
+    ```
+    Co-efficients
+    ```
+    reg.coef_
+    ```
+    Intercept
+    ```
+    reg.intercept_
+    ```
+    Making Predictions
+    ```
+    reg.predict(<number>)
+    ```
+- [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling) is a method used to normalize the range of independent variables or features of data
+- Differences between the L1-norm and the L2-norm [Least Absolute Deviations and Least Squares](https://www.chioka.in/differences-between-the-l1-norm-and-the-l2-norm-least-absolute-deviations-and-least-squares/) 
 
 
-#### Name | [Company](link)
+
+#### AI Applications | [MCP - Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
 - Generation information from the speaker here
 
 
