@@ -11,16 +11,36 @@
 - Simple and efficient tools for predictive data analysis: Regression, Classification, Clustering, Support Vector Machines, Dimensionality Reduction
 - Built on [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), [pandas](https://pandas.pydata.org/) and [matplotlib](https://matplotlib.org/)
 - Linear Model: 
+    
     Import the relevant Libraries
     ```
     import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
     important seaborn as sns
+    sns.set()
+
+    from sklearn.linear_model import LinearRegression
     ```
     Load the data
     ```
-    <load here>
+    data = pd.read_csv("1.01. Simple Linear Regression.cvs")
+    data.head()
+    ```
+    Create the Regression
+    ```
+    x = data["col1"]
+    y = data["col2"]
+    x.shape
+    y.shape
+
+    x_matrix = x.values.reshape(-1, 1)
+    x_matrix.shape
+    ```
+    Regression Itself
+    ```
+    reg = LinearRegression()
+    reg.fit(x,y)
     ```
 
 
