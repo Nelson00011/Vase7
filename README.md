@@ -114,8 +114,11 @@ sns.displot(data=penguins, x="flipper_length_mm")
 
 
 ## Resources:
-- Blackbird.AI is focusing on Kursk Incursion (2024):
-    - **Compass Context** to verify and contextualize the information you see [online](https://blackbird.ai/compass-context/)
+- R Studio is preferred by Biologist for Visualizing Data:
+    - **[ggplot2](https://ggplot2.tidyverse.org/)** is a system for declaratively creating graphics
+    - [RStudio](https://github.com/rstudio) Github with [CheatSheets](https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf)
+- [Pandas](https://pandas.pydata.org/) is an essential, open-source Python library designed for high-performance data manipulation and analysis:
+    - [pandas.get_dummies](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html) Convert categorical variable into dummy/indicator variables.
 
 
 ## Contact:
