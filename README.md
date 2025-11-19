@@ -8,10 +8,21 @@
 
 ## Notes:
 #### ML in Python | [SciKit](https://scikit-learn.org/stable/)
-- Simple and efficient tools for predictive data analysis
-- Accessible to everybody, and reusable in various contexts
-- Built on NumPy, SciPy, and matplotlib
-- Open source, commercially usable - BSD license
+- Simple and efficient tools for predictive data analysis: Regression, Classification, Clustering, Support Vector Machines, Dimensionality Reduction
+- Built on [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), [pandas](https://pandas.pydata.org/) and [matplotlib](https://matplotlib.org/)
+- Linear Model: 
+    Import the relevant Libraries
+    ```
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    important seaborn as sns
+    ```
+    Load the data
+    ```
+    <load here>
+    ```
+
 
 #### Name | [Company](link)
 - Generation information from the speaker here
