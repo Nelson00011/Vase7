@@ -95,6 +95,10 @@
     x_scaled = scaler.transform(x)
     ```
 - [Seaborn](https://seaborn.pydata.org/generated/seaborn.displot.html) several approaches for visualizing the univariate or bivariate distribution of data, including subsets of data defined by semantic mapping and faceting across multiple subplots
+```
+penguins = sns.load_dataset("penguins")
+sns.displot(data=penguins, x="flipper_length_mm")
+```
 <p align="center"><a href="https://seaborn.pydata.org/generated/seaborn.displot.html"><img src="./image/Penguin.png"></img></a></p>
 
 - [Underfitting](https://www.ibm.com/think/topics/underfitting) the model has no captured the underlying logic of the data
