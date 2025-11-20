@@ -107,6 +107,7 @@ sns.displot(data=penguins, x="flipper_length_mm")
 
 - [Maximum likelihood estimation - MLE](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation) is a method of estimating the parameters of an assumed probability distribution, given some observed data.
 <p align="center"><a href="https://towardsdatascience.com/logistic-regression-deceptively-flawed-2c3e7f77eac9/"><img src="./image/LogitModel.PNG"></img></a></p>
+- LL-Null (log likelihood-null): the log-likelihood of a model which has no indepedent variables. 
 
 
 - [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling) is a method used to normalize the range of independent variables or features of data
@@ -118,7 +119,6 @@ sns.displot(data=penguins, x="flipper_length_mm")
 #### AI Applications | [MCP - Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
 - Generation information from the speaker here
 
-
 ## Resources:
 - R Studio is preferred by Biologist for Visualizing Data:
     - **[ggplot2](https://ggplot2.tidyverse.org/)** is a system for declaratively creating graphics
@@ -126,6 +126,13 @@ sns.displot(data=penguins, x="flipper_length_mm")
 - [Pandas](https://pandas.pydata.org/) is an essential, open-source Python library designed for high-performance data manipulation and analysis:
     - [pandas.get_dummies](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html) Convert categorical variable into dummy/indicator variables.
 - [Logit](https://en.wikipedia.org/wiki/Logit) function is the quantile function associated with the standard logistic distribution
+- [Classification](https://scikit-learn.org/stable/auto_examples/classification/index.html) predicting an output category, given an input data
+- [Clustering](https://scikit-learn.org/stable/modules/clustering.html) Grouping data points toether based on similarities among them and difference from others by [Google](https://developers.google.com/machine-learning/clustering/clustering-algorithms)
+    - [K-Means](https://www.ibm.com/think/topics/k-means-clustering) Clusterings example: 
+    ```
+    class sklearn.cluster.KMeans(n_clusters=8, *, init='k-means++', n_init='auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm='lloyd')12
+    ```
+- [Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html) a machine learning technique where an algorithm is trained on labeled data
 
 
 ## Contact:
