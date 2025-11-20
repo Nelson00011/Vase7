@@ -105,8 +105,9 @@ sns.displot(data=penguins, x="flipper_length_mm")
 - [Overfitting](https://www.ibm.com/think/topics/overfitting) Our Training has focused on the particular training set so much, it has "missed the point" 
 - [Variance Inflation Factor (VIF)](https://gustavorsantos.medium.com/calculating-variance-inflation-factor-vif-in-python-49e5f48f33bf) is a metric used to quantify the severity of multicollinearity among independent variables in a regression model
 
-<p align="center"><a href="https://towardsdatascience.com/logistic-regression-deceptively-flawed-2c3e7f77eac9/"><img src="./image/LogitModel.PNG"></img></a></p>
 - [Maximum likelihood estimation - MLE](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation) is a method of estimating the parameters of an assumed probability distribution, given some observed data.
+<p align="center"><a href="https://towardsdatascience.com/logistic-regression-deceptively-flawed-2c3e7f77eac9/"><img src="./image/LogitModel.PNG"></img></a></p>
+
 
 - [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling) is a method used to normalize the range of independent variables or features of data
 - Differences between the L1-norm and the L2-norm [Least Absolute Deviations and Least Squares](https://www.chioka.in/differences-between-the-l1-norm-and-the-l2-norm-least-absolute-deviations-and-least-squares/) 
