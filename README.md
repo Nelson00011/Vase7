@@ -22,7 +22,7 @@
 
     from sklearn.linear_model import LinearRegression
     ```
-    Load the data
+    Load the data (`read_csv()`)
     ```
     data = pd.read_csv("1.01. Simple Linear Regression.cvs")
     data.head()
@@ -103,9 +103,14 @@ sns.displot(data=penguins, x="flipper_length_mm")
 
 - [Underfitting](https://www.ibm.com/think/topics/underfitting) the model has no captured the underlying logic of the data
 - [Overfitting](https://www.ibm.com/think/topics/overfitting) Our Training has focused on the particular training set so much, it has "missed the point" 
+- [Variance Inflation Factor (VIF)](https://gustavorsantos.medium.com/calculating-variance-inflation-factor-vif-in-python-49e5f48f33bf) is a metric used to quantify the severity of multicollinearity among independent variables in a regression model
+
+<p align="center"><a href="https://towardsdatascience.com/logistic-regression-deceptively-flawed-2c3e7f77eac9/"><img src="./image/LogitModel.PNG"></img></a></p>
+- [Maximum likelihood estimation - MLE](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation) is a method of estimating the parameters of an assumed probability distribution, given some observed data.
 
 - [Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling) is a method used to normalize the range of independent variables or features of data
 - Differences between the L1-norm and the L2-norm [Least Absolute Deviations and Least Squares](https://www.chioka.in/differences-between-the-l1-norm-and-the-l2-norm-least-absolute-deviations-and-least-squares/) 
+
 
 
 
@@ -119,6 +124,7 @@ sns.displot(data=penguins, x="flipper_length_mm")
     - [RStudio](https://github.com/rstudio) Github with [CheatSheets](https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf)
 - [Pandas](https://pandas.pydata.org/) is an essential, open-source Python library designed for high-performance data manipulation and analysis:
     - [pandas.get_dummies](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html) Convert categorical variable into dummy/indicator variables.
+- [Logit](https://en.wikipedia.org/wiki/Logit) function is the quantile function associated with the standard logistic distribution
 
 
 ## Contact:
