@@ -1,10 +1,10 @@
-<h1 align="center">Data Science Tool Kit</h1>
+<h1 align="center">Data Science Toolkit</h1>
 
 <p align="center"><a href="https://blackbird.ai/"><img src="./image/python.png"></img></a></p>
 
 
 ## Description:
-**Name of Event** with Description of the event and link. 
+**Data Science** using Python expanding on the pandas and NumPy sections with smaller, unique datasets
 
 ## Notes:
 #### ML in Python | [SciKit](https://scikit-learn.org/stable/)
@@ -128,11 +128,15 @@ sns.displot(data=penguins, x="flipper_length_mm")
 - [Logit](https://en.wikipedia.org/wiki/Logit) function is the quantile function associated with the standard logistic distribution
 - [Classification](https://scikit-learn.org/stable/auto_examples/classification/index.html) predicting an output category, given an input data
 - [Clustering](https://scikit-learn.org/stable/modules/clustering.html) Grouping data points toether based on similarities among them and difference from others by [Google](https://developers.google.com/machine-learning/clustering/clustering-algorithms)
-    - [K-Means](https://www.ibm.com/think/topics/k-means-clustering) Clusterings example: 
+    - [K-Means](https://www.ibm.com/think/topics/k-means-clustering) Clusterings that are FLAT example: 
     ```
     class sklearn.cluster.KMeans(n_clusters=8, *, init='k-means++', n_init='auto', max_iter=300, tol=0.0001, verbose=0, random_state=None, copy_x=True, algorithm='lloyd')12
     ```
+    - [HIERACHICAL](https://en.wikipedia.org/wiki/Hierarchical_clustering) subdivides into [AGGLORMERATIVE](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html) Bottom-Up often using Dendrogram and [DIVISIVE](https://scikit-learn.org/stable/auto_examples/cluster/plot_ward_structured_vs_unstructured.html) Top-Down
+    - Heatmaps in [seaborn](https://seaborn.pydata.org/generated/seaborn.clustermap.html)
 - [Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html) a machine learning technique where an algorithm is trained on labeled data
+
+ChatGPT for Data Science
 
 
 ## Contact:
