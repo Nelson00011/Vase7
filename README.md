@@ -4,7 +4,7 @@
 
 
 ## Description:
-**Data Science** using Python expanding on the pandas and NumPy sections with smaller, unique datasets
+**Data Science** using Python expanding on the pandas and NumPy sections with smaller, unique datasets. Emphasis on Programming Languages & Environments (Python, R, Jupyter, Rstudio), Data Analysis Libraries (pandas, NumPy, Tidyr), Machine Learning Frameworks (scikitlearn, TensorFlow, PyTorch), Data Visualization Tools.
 
 ## Notes:
 #### ML in Python | [SciKit](https://scikit-learn.org/stable/)
