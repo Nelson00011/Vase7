@@ -17,6 +17,12 @@
 
 <p align="center"><a ><img src="./image/DataSciencePython.PNG"></img></a></p>
 
+#### Mathematics | [Linear Algebra](https://chatgpt.com/)
+- Matrix / Matrices [mathematics](https://en.wikipedia.org/wiki/Matrix_(mathematics)) refresher: Scalar, Vectors, Matrices.
+- [NumPy](https://numpy.org/) scientific computing with Python
+    - [Dot Product]()
+- [TensorFlow](https://www.tensorflow.org/) an end-to-end platform for machine learning
+
 ## Resources:
 - [Exploratory Data Analysis - EDA](https://www.ibm.com/think/topics/exploratory-data-analysis) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.
 - [Support Vector Machine - SVM](https://www.ibm.com/think/topics/support-vector-machine) A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space.
