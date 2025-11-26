@@ -1,6 +1,6 @@
 <h1 align="center">ChatGPT Data Science</h1>
 
-<p align="center"><a href="https://chatgpt.com/"><img src="./image/DataSciencePython"></img></a></p>
+<p align="center"><a href="https://chatgpt.com/"><img src="./image/ChatGPT.png"></img></a></p>
 
 ## Description:
 **Data Science** with Python expanding on ChatGPT for AI assisstance. 
@@ -15,12 +15,13 @@
 4. Training the models
 5. Model Evaluation
 
-<p align="center"><a ><img src="./image/DataSciencePython.PNG"></img></a></p>
+<p align="center"><a ><img src="./image/DataSciencePython.png"></img></a></p>
 
 #### Mathematics | [Linear Algebra](https://chatgpt.com/)
 - Matrix / Matrices [mathematics](https://en.wikipedia.org/wiki/Matrix_(mathematics)) refresher: Scalar, Vectors, Matrices.
 - [NumPy](https://numpy.org/) scientific computing with Python
     - [Dot Product](https://builtin.com/data-science/dot-product-matrix): Matrix multiplication uses dot products between rows of the first matrix and columns of the second matrix to form a new matrix. This operation is essential in machine learning for efficiently processing large data sets, and can be performed in Python using NumPy’s np.dot() function.
+<p align="center"><a ><img src="./image/DotProduct.png"></img></a></p>
     - Deeplearning Databases [MNIST](https://en.wikipedia.org/wiki/MNIST_database), [cIFAR10](https://en.wikipedia.org/wiki/CIFAR-10), [cIFAR100](https://git-disl.github.io/GTDLBench/datasets/cifar-100_datasets/)
 - [TensorFlow](https://www.tensorflow.org/) an end-to-end platform for machine learning
 
