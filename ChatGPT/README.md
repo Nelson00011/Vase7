@@ -30,9 +30,13 @@
 
 #### Deep Learning | [Neural Networks](https://www.ibm.com/think/topics/neural-networks)
 - **Neural Networks** is a machine learning model that stacks simple "neurons" in layers and learns pattern-recognizing weights and biases from data to map inputs to outputs.
-    - [Supervised](https://www.ibm.com/think/topics/supervised-learning): an algorithm is trained on labeled data to predict future outcomes
+    - [Supervised](https://www.ibm.com/think/topics/supervised-learning): an algorithm is trained on labeled data to predict future outcomes:
+        - [Loss Function](https://www.ibm.com/think/topics/loss-function) a mathematical tool in machine learning that quantifies the difference between a model's predicted output and the actual, true output
+            - **Regression** [L2-Norm](https://www.geeksforgeeks.org/machine-learning/l1-l2-norms-in-sparse-modeling/): Sparse modeling is a powerful approach in machine learning and statistics where models are encouraged to use only a subset of the available features. Numbers
+            - **Classification** [cross-entropy](https://www.geeksforgeeks.org/deep-learning/categorical-cross-entropy-in-multi-class-classification/) is widely used as a loss function to measure how well a model predicts the correct class in multi-class classification problems: Categorial. [Gradient Descent](https://en.wikipedia.org/wiki/Gradient_descent) is a method for unconstrained mathematical optimization
     - [Unsupervised](https://en.wikipedia.org/wiki/Unsupervised_learning): unlabeled data to discover hidden patterns and relationships without predefined outcomes
     - [Reinforcement](https://en.wikipedia.org/wiki/Reinforcement_learning): where an "agent" learns to make decisions by performing actions in an environment and receiving feedback in the form of rewards or penalties
+        - [Reward Function](https://arxiv.org/html/2408.10215v1) to be determined. 
 
 ## Resources:
 - [Exploratory Data Analysis - EDA](https://www.ibm.com/think/topics/exploratory-data-analysis) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.
