@@ -36,7 +36,7 @@ from keras import layers
 - **Linear Combinations**: Input, Hidden Layer (n), Output Layer 
     - [Activation Functions](https://www.datacamp.com/tutorial/introduction-to-activation-functions-in-neural-networks) are an integral building block of neural networks that enable them to learn complex patterns in data.
 
-- [Backpropagation in Neural Network](https://www.geeksforgeeks.org/machine-learning/backpropagation-in-neural-network/) short for Backward Propagation of Errors, is a key algorithm used to train neural networks by minimizing the difference between predicted and actual outputs.
+- [Backpropagation in Neural Network](https://www.geeksforgeeks.org/machine-learning/backpropagation-in-neural-network) short for Backward Propagation of Errors, is a key algorithm used to train neural networks by minimizing the difference between predicted and actual outputs.
     - **Dataset**: Training, Validation, Test
     ```
     training_data = np.load('TF_intro.npz')
@@ -44,7 +44,7 @@ from keras import layers
 
 - [Gradient Descent: Batch, Stochastic, and Mini-Batch Methods](https://medium.com/@chaudharyankita667/understanding-gradient-descent-batch-stochastic-and-mini-batch-methods-9867829e90f4) are one of the most important optimization algorithms in machine learning and deep learning.
     - **Batch Gradient Descent (BGD)** it processes the entire dataset to calculate a single update to the model parameters
-    - **Stochastic Gradient Descent (SGD)**is a variant of gradient descent that makes updates to the model parameters after each individual training sample
+    - **Stochastic Gradient Descent (SGD)** is a variant of gradient descent that makes updates to the model parameters after each individual training sample
     - **Mini-Batch Gradient Descent** is a compromise between Batch Gradient Descent and Stochastic Gradient Descent. It splits the training dataset into smaller batches, and then it computes the gradient and updates the parameters using these smaller batches
 
 ## Resources:
