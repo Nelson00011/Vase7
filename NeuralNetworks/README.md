@@ -30,7 +30,7 @@ import tensorflow as tf
 import keras
 from keras import layers
 ```
-- [Deep Neural Network](https://en.wikipedia.org/wiki/Neural_network_(machine_learning) has at least two hidden layers.
+- [Deep Neural Network](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)) has at least two hidden layers.
     - [Hyperparmeters](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) is a parameter that can be set in order to define any configurable part of a model's learning process: Width, Depth, Learning Rate
     - [Parameters](https://medium.com/analytics-vidhya/what-are-model-parameters-in-deep-learning-and-how-to-calculate-it-de96476caab) are the learned values within a machine learning model that determine how it maps input data to outputs, such as generated text or a predicted classification
 - **Linear Combinations**: Input, Hidden Layer (n), Output Layer 
