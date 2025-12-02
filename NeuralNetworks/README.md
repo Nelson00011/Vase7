@@ -3,7 +3,7 @@
 <p align="center"><a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)#:~:text=Typically%2C%20neurons%20are%20aggregated%20into,seemingly%20unrelated%20set%20of%20information."><img src="../image/Colored_neural_network.png"></img></a></p>
 
 ## Description:
-**[TensorFlow](https://www.tensorflow.org/)** is a software library for machine learning and artificial intelligence.
+**[TensorFlow](https://www.tensorflow.org/)** is a software library for machine learning and artificial intelligence. Including `model.evaluate()` in TensorFlow used to evluate a trained mode on a given dataset (returning loss value, additional metrics specific during model compilation).
 
 ## Notes:
 #### Simple Linear Regression | [PyTorch](https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html)
@@ -41,11 +41,16 @@ from keras import layers
     ```
     training_data = np.load('TF_intro.npz')
     ```
+    - **[Callback](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/Callback)** can be passed to keras methods such as `fit()`, `evaluate()`, and `predict()` in order to hook into the various stages of the model training, evaluation, and inference lifecycle.
 
 - [Gradient Descent: Batch, Stochastic, and Mini-Batch Methods](https://medium.com/@chaudharyankita667/understanding-gradient-descent-batch-stochastic-and-mini-batch-methods-9867829e90f4) are one of the most important optimization algorithms in machine learning and deep learning.
     - **Batch Gradient Descent (BGD)** it processes the entire dataset to calculate a single update to the model parameters
     - **Stochastic Gradient Descent (SGD)** is a variant of gradient descent that makes updates to the model parameters after each individual training sample
     - **Mini-Batch Gradient Descent** is a compromise between Batch Gradient Descent and Stochastic Gradient Descent. It splits the training dataset into smaller batches, and then it computes the gradient and updates the parameters using these smaller batches
+    ```
+    tf.keras.layer.Dense(output size)
+    ```
+    - takes the input, provided to the model and calculates the dot product of the input and the weights and adds the bias. This is also where we can apply to an activated function. 
 
 ## Resources:
 - [NumPy](https://numpy.org/) The fundamental package for scientific computing with Python
