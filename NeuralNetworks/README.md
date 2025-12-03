@@ -52,6 +52,9 @@ from keras import layers
     ```
     - takes the input, provided to the model and calculates the dot product of the input and the weights and adds the bias. This is also where we can apply to an activated function. 
 
+[CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) (Convolutional Neural Networks) and [RNNs](https://en.wikipedia.org/wiki/Recurrent_neural_network) (Recurrent Neural Networks) are both **Deep Learning Networks**. 
+    - Input Layer -> Convolution Layer -> Pool Layer
+
 ## Resources:
 - [NumPy](https://numpy.org/) The fundamental package for scientific computing with Python
 - [Matplotlib: Visualization with Python](https://matplotlib.org/) comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
