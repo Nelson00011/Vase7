@@ -53,7 +53,9 @@ from keras import layers
     - takes the input, provided to the model and calculates the dot product of the input and the weights and adds the bias. This is also where we can apply to an activated function. 
 
 [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) (Convolutional Neural Networks) and [RNNs](https://en.wikipedia.org/wiki/Recurrent_neural_network) (Recurrent Neural Networks) are both **Deep Learning Networks**. 
+    
     - Input Layer -> Convolution Layer -> Pool Layer
+    - [Preprocessing Data](https://scikit-learn.org/0.19/modules/preprocessing.html#:~:text=4.3.-,Preprocessing%20data,scalers%20on%20data%20with%20outliers.) package provides several common utility functions and transformer classes to change raw feature vectors into a representation that is more suitable for the downstream estimators
 
 ## Resources:
 - [NumPy](https://numpy.org/) The fundamental package for scientific computing with Python
