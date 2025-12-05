@@ -57,12 +57,27 @@ from keras import layers
     - Input Layer -> Convolution Layer -> Pool Layer
     - [Preprocessing Data](https://scikit-learn.org/0.19/modules/preprocessing.html#:~:text=4.3.-,Preprocessing%20data,scalers%20on%20data%20with%20outliers.) package provides several common utility functions and transformer classes to change raw feature vectors into a representation that is more suitable for the downstream estimators
 
+Machine Learning Engineers, Econometrician and Statisticians, Data Scientist
+
+Tableau [Public](https://public.tableau.com/app/discover) explore, create, share data visualizations, and connect with data analysts worldwide: [Australia](https://public.tableau.com/app/profile/iram.javed/viz/Australiancharities_17394333503230/Analysis), [Japan](https://public.tableau.com/app/profile/agata1619/viz/JapansMostBeautifulPrefectures_17204472802890/Japan), South [Korea](https://public.tableau.com/app/profile/marc.reid/viz/SouthKorea-Demographics/SouthKoreaPopulationDensityandDemographics), [AI-Powered Climate Change](https://public.tableau.com/app/profile/harim.jung/viz/GlobalCODashboardPoweredbyTableauAgent/TableauAgentClimateDashboard), [LoveActually](https://public.tableau.com/app/profile/ali15tehrani/viz/LoveActually_17647821730960/LoveActually) is All Around
+
+
 ## Resources:
 - [NumPy](https://numpy.org/) The fundamental package for scientific computing with Python
 - [Matplotlib: Visualization with Python](https://matplotlib.org/) comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
 - [Pandas](https://pandas.pydata.org/) The fundamental package for scientific computing with Python:
-    - **Column Names in Pandas Dataframe** operations included in [link](https://www.geeksforgeeks.org/python/how-to-get-column-names-in-pandas-dataframe/); DataFrame is often abbreviated as `df` when using pandas `pd`
-
+    - **Column Names in Pandas Dataframe** operations included in [link](https://www.geeksforgeeks.org/python/how-to-get-column-names-in-pandas-dataframe/); DataFrame is often abbreviated as `df` when using pandas `pd`. Find Dimensions of [Arrays](https://www.askpython.com/python-modules/pandas/shape-method) and [DataFrames](https://www.askpython.com/python-modules/pandas/shape-method)
+    ```
+    # Import Pandas Python module
+    import pandas as pd 
+ 
+    # Create a Python list
+    ls =[['A','B','C','D'], ['e' ,'f' ,'g' ,'h'], [11, 22, 33, 44]]
+ 
+    # Create a Pandas DataFrame from the above list
+    df = pd.DataFrame(ls)
+    ```
+    - [Pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html) read and write tabular data. Data to review [here](https://medium.com/@abhivik/employee-absenteeism-analysis-a-step-by-step-project-using-python-sql-and-tableau-b7b6bfcb50f1)
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
