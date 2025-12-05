@@ -60,6 +60,9 @@ from keras import layers
 ## Resources:
 - [NumPy](https://numpy.org/) The fundamental package for scientific computing with Python
 - [Matplotlib: Visualization with Python](https://matplotlib.org/) comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+- [Pandas](https://pandas.pydata.org/) The fundamental package for scientific computing with Python:
+    - **Column Names in Pandas Dataframe** operations included in [link](https://www.geeksforgeeks.org/python/how-to-get-column-names-in-pandas-dataframe/); DataFrame is often abbreviated as `df` when using pandas `pd`
+
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
