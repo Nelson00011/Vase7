@@ -3,7 +3,7 @@
 <p align="center"><a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)#:~:text=Typically%2C%20neurons%20are%20aggregated%20into,seemingly%20unrelated%20set%20of%20information."><img src="../image/Colored_neural_network.png"></img></a></p>
 
 ## Description:
-**[TensorFlow](https://www.tensorflow.org/)** is a software library for machine learning and artificial intelligence. Including `model.evaluate()` in TensorFlow used to evluate a trained mode on a given dataset (returning loss value, additional metrics specific during model compilation).
+**[TensorFlow](https://www.tensorflow.org/)** is a software library for machine learning and artificial intelligence. Including `model.evaluate()` in TensorFlow used to evaluate a trained mode on a given dataset (returning loss value, additional metrics specific during model compilation).
 
 ## Notes:
 #### Simple Linear Regression | [PyTorch](https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html)
