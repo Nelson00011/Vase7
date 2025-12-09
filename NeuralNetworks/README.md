@@ -78,6 +78,16 @@ Tableau [Public](https://public.tableau.com/app/discover) explore, create, share
     df = pd.DataFrame(ls)
     ```
     - [Pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html) read and write tabular data. Data to review [here](https://medium.com/@abhivik/employee-absenteeism-analysis-a-step-by-step-project-using-python-sql-and-tableau-b7b6bfcb50f1)
+    - Various representations to return index of occurance of `dataframe.min()` or `dataframe.max()`:
+    ```
+    DataFrame.idxmin(axis=0, skipna=True, numeric_only=False)[source]
+
+    dataframe.idxmax()
+    ```
+    - The `describe()` [method](https://www.geeksforgeeks.org/pandas/python-pandas-dataframe-describe-method/) in Pandas generates descriptive statistics of DataFrame columns which provides key metrics like mean, standard deviation, percentiles and more:
+    ```
+    dataframe.describe()
+    ```
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
