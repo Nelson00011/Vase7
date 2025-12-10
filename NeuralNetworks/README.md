@@ -88,6 +88,16 @@ Tableau [Public](https://public.tableau.com/app/discover) explore, create, share
     ```
     dataframe.describe()
     ```
+    - [Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.nunique.html) Return Series with number of distinct elements. Can ignore NaN values:
+    ```
+    df.nunique()
+    df.unique()
+    ```
+    - Attribute Indicator / Accessor: [Purely](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html) integer-location based indexing for selection by position `.iloc` and [Access](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html) a group of rows and columns by label(s) or a boolean array `.loc` : 
+    ```
+    .iloc
+    .loc
+    ```
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
